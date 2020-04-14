@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Assignment</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <style>
+      body {
+        padding-top: 54px;
+      }
+      @media (min-width: 992px) {
+        body {
+          padding-top: 56px;
+        }
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+	<!-- Navbar code used from boostrap template provided then heavily modified the code. -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Love2Learn</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a href="index.html" style="color: #fff;"> <i class="fas fa-home fa-fw" style="font-size:20px"></i>Home</a>
+            </li>
+            
+			<!-- Dropdown menu code from https://www.w3schools.com/bootstrap/bootstrap_tabs_pills.asp Heavily modified/improved to suit my design -->
+			
+			<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" style="color: #fff" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-bell fa-fw" style="font-size:20px"></i>Notifications
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">
+		  <a class="dropdown-item" href="#">
+				<div class="row">
+				<div class="col-md-5"><div class="inset2">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVshDgm8kKqiqTsOY_5ektnidYZ-bjA6ORu2pb-TU1GMFditVhw">
+                </div></div>
+				<div class = "d" "col-md-1"><h6>Rachel</h6><p class = "d">Feedback</p></div>
+				</div>
+				</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">
+				<div class="row">
+				<div class="col-md-5"><div class="inset2">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBITLnZ3sR4MT3hvFOlphhQGwfsi8H2OH5EgLzKm6iR5McCZnt">
+                </div></div>
+				<div class = "d" "col-md-1"><h6>Tom</h6><p class = "d">Feedback</p></div>
+				</div>
+				</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">
+				<div class="row">
+				<div class="col-md-5"><div class="inset2">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVshDgm8kKqiqTsOY_5ektnidYZ-bjA6ORu2pb-TU1GMFditVhw">
+                </div></div>
+				<div class = "d" "col-md-1"><h6>Tali</h6><p class = "d">Feedback</p></div>
+				</div>
+				</a>
+        </div>
+      </li>
+			
+			<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown" style="color: #fff" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-comments fa-fw" style="font-size:20px"></i>Chat</a>
+				<div class="dropdown-menu">
+				<a class="dropdown-item" href="#">
+				<div class="row">
+				<div class="col-md-5"><div class="inset2">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBITLnZ3sR4MT3hvFOlphhQGwfsi8H2OH5EgLzKm6iR5McCZnt">
+                </div></div>
+				<div class = "d" "col-md-1"><h6>Tom</h6><p class = "d">Message</p></div>
+				</div>
+				</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">
+				<div class="row">
+				<div class="col-md-5"><div class="inset2">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVshDgm8kKqiqTsOY_5ektnidYZ-bjA6ORu2pb-TU1GMFditVhw">
+                </div></div>
+				<div class = "d" "col-md-1"><h6>Rachel</h6><p class = "d">Message</p></div>
+				</div>
+				</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">
+				<div class="row">
+				<div class="col-md-5"><div class="inset2">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBITLnZ3sR4MT3hvFOlphhQGwfsi8H2OH5EgLzKm6iR5McCZnt">
+                </div></div>
+				<div class = "d" "col-md-1"><h6>Brad</h6><p class = "d">Message</p></div>
+				</div>
+				</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">
+				<div class="row">
+				<div class="col-md-5"><div class="inset2">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVshDgm8kKqiqTsOY_5ektnidYZ-bjA6ORu2pb-TU1GMFditVhw">
+                </div></div>
+				<div class = "d" "col-md-1"><h6>Kate</h6><p class = "d">Message</p></div>
+				</div>
+				</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">
+				<div class="row">
+				<div class="col-md-5"><div class="inset2">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBITLnZ3sR4MT3hvFOlphhQGwfsi8H2OH5EgLzKm6iR5McCZnt">
+                </div></div>
+				<div class = "d" "col-md-1"><h6>John</h6><p class = "d">Message</p></div>
+				</div>
+				</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">
+				<div class="row">
+				<div class="col-md-5"><div class="inset2">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVshDgm8kKqiqTsOY_5ektnidYZ-bjA6ORu2pb-TU1GMFditVhw">
+                </div></div>
+				<div class = "d" "col-md-1"><h6>Tali</h6><p class = "d">Message</p></div>
+				</div>
+				</a>
+				</div>
+				</li>
+            
+			</ul>
+			<ul class="navbar-nav ml-auto">
+			<div class="right-inner-addon ">
+		<i class="fas fa-search"></i>
+		<input class="form-control mr-sm-2" type="text" placeholder="Search Love2Learn" aria-label="Search">
+		</div>
+			
+			<li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="inset">
+                  <img src="http://afonsof.com/jenkins-material-theme/images/logo.svg">
+                </div>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+		<h5 class="dropdown-header">James Donaldson</h5>
+		<div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Account</a>
+          <a class="dropdown-item" href="#">Help</a>
+          <a href="#response" class="dropdown-item" data-toggle="modal" data-target="#response">Log out</a>
+        </div>
+      </li>
+		
+		
+        </div>
+      </div>
+    </nav>
+	
+	<!-- END SOURCE -->
+	<!-- END SOURCE -->
+
+    <!-- Page Content -->
+    
+	 
+	<div class="row top-buffer"></div>
+	
+	<!-- Pills code from https://www.w3schools.com/bootstrap/bootstrap_tabs_pills.asp Heavily modified/improved to suit my design -->
+	
+<div class="centered-pills">
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="pill" href="#you"><div class="inset mx-auto">
+                  <img src="http://afonsof.com/jenkins-material-theme/images/logo.svg">
+                </div>You</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="#peer1"><div class="inset mx-auto">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBITLnZ3sR4MT3hvFOlphhQGwfsi8H2OH5EgLzKm6iR5McCZnt">
+                </div>Tom</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="#peer2"><div class="inset mx-auto">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVshDgm8kKqiqTsOY_5ektnidYZ-bjA6ORu2pb-TU1GMFditVhw">
+                </div>Rachel</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="#peer3"><div class="inset mx-auto">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBITLnZ3sR4MT3hvFOlphhQGwfsi8H2OH5EgLzKm6iR5McCZnt">
+                </div>Brad</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="#peer4"><div class="inset mx-auto">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVshDgm8kKqiqTsOY_5ektnidYZ-bjA6ORu2pb-TU1GMFditVhw">
+                </div>Kate</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="#peer5"><div class="inset mx-auto">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBITLnZ3sR4MT3hvFOlphhQGwfsi8H2OH5EgLzKm6iR5McCZnt">
+                </div>John</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="#peer6"><div class="inset mx-auto">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVshDgm8kKqiqTsOY_5ektnidYZ-bjA6ORu2pb-TU1GMFditVhw">
+                </div>Tali</a>
+  </li>
+</ul>
+</div>
+
+
+<!-- Tab panes -->
+
+<div class="row top-buffer"></div>
+
+<div class="tab-content">
+	
+	<div class="tab-pane container active" id="you">
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-8">
+				<!-- Card code used from https://getbootstrap.com/docs/4.1/components/card/ then heavily modified/improved to suit my design. -->
+					<div class="card">
+						<div class="card-header">
+							Question
+						</div>
+						<div class="card-body">
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id dui vitae mi gravida mattis vitae suscipit neque. Nullam pulvinar, orci eget feugiat maximus, sem sapien auctor ligula, quis ultricies turpis ipsum vel ipsum. Nulla sed est vel nisi euismod viverra. Curabitur sed nisl vitae lectus congue volutpat sit amet eu turpis. Nunc hendrerit massa id sapien pulvinar facilisis. Nullam lobortis, elit id placerat gravida, est massa ultricies quam, at.</p>
+						</div>
+					</div>
+					
+					<!-- END SOURCE -->
+					
+					<div class="row top-buffer"></div>
+					
+					<div class="form-group">
+						<label for="comment">Answer</label>
+						<textarea class="form-control" rows="9" id="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id dui vitae mi gravida mattis vitae suscipit neque. Nullam pulvinar, orci eget feugiat maximus, sem sapien auctor ligula, quis ultricies turpis ipsum vel ipsum. Nulla sed est vel nisi euismod viverra. Curabitur sed nisl vitae lectus congue volutpat sit amet eu turpis. Nunc hendrerit massa id sapien pulvinar facilisis. Nullam lobortis, elit id placerat gravida, est massa ultricies quam, at.
+</textarea>
+					</div>
+					
+					
+					<div class="row top-buffer2"></div>
+
+					<div class="btn-group d-flex" role="group">
+						<a href="" class="btn btn-secondary w-100">Insert Media</a>
+						<a href="" class="btn btn-secondary w-100">Save Answer</a>
+						<a href="" class="btn btn-secondary w-100">Submit Answer</a>
+					</div>
+					
+				</div>
+				
+				<div class="col-4">
+					<!-- Card code used from https://getbootstrap.com/docs/4.1/components/card/ then heavily modified/improved to suit my design. -->
+					<div class="card">
+						<div class="card-header">
+							Feedback
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Tali </h5>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis</p>
+							<p class = "ex1"><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 23 minutes ago</small>
+						</div>
+						<div class="card-footer">
+							<div class="container">
+								<div class="row justify-content-md-center">
+									<div class="col-4" align="center">
+										<i class="fas fa-thumbs-up" aria-hidden="true"></i>
+									</div>
+									<div class="col-4" align="center">
+										<i class="fas fa-thumbs-down" aria-hidden="true"></i>
+									</div>
+									<div class="col-4" align="center">
+										<i class="fas fa-reply" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Tom </h5>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis</p>
+							<p class = "ex1"><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 47 minutes ago</small>
+						</div>
+						<div class="card-footer">
+							<div class="container">
+								<div class="row justify-content-md-center">
+									<div class="col-4" align="center">
+										<i class="fas fa-thumbs-up" aria-hidden="true"></i>
+									</div>
+									<div class="col-4" align="center">
+										<i class="fas fa-thumbs-down" aria-hidden="true"></i>
+									</div>
+									<div class="col-4" align="center">
+										<i class="fas fa-reply" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">John </h5>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis</p>
+							<p class = "ex1"><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 3 hours ago</small>
+						</div>
+						<div class="card-footer">
+							<div class="container">
+								<div class="row justify-content-md-center">
+									<div class="col-4" align="center">
+										<i class="fas fa-thumbs-up" aria-hidden="true"></i>
+									</div>
+									<div class="col-4" align="center">
+										<i class="fas fa-thumbs-down" aria-hidden="true"></i>
+									</div>
+									<div class="col-4" align="center">
+										<i class="fas fa-reply" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- END SOURCE -->
+					<div class="row top-buffer2"></div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+	<div class="tab-pane container fade" id="peer1">
+	
+	<div class="container">
+			<div class="row">
+				<div class="col-8">
+				<!-- Card code used from https://getbootstrap.com/docs/4.1/components/card/ then heavily modified/improved to suit my design. -->
+					<div class="card">
+						<div class="card-header">
+							Question
+						</div>
+						<div class="card-body">
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id dui vitae mi gravida mattis vitae suscipit neque. Nullam pulvinar, orci eget feugiat maximus, sem sapien auctor ligula, quis ultricies turpis ipsum vel ipsum. Nulla sed est vel nisi euismod viverra. Curabitur sed nisl vitae lectus congue volutpat sit amet eu turpis. Nunc hendrerit massa id sapien pulvinar facilisis. Nullam lobortis, elit id placerat gravida, est massa ultricies quam, at.</p>
+						</div>
+					</div>
+					
+					<div class="row top-buffer"></div>
+					
+					<div class="card">
+						<div class="card-header">
+							Answer
+						</div>
+						<div class="card-body">
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id dui vitae mi gravida mattis vitae suscipit neque. Nullam pulvinar, orci eget feugiat maximus, sem sapien auctor ligula, quis ultricies turpis ipsum vel ipsum. Nulla sed est vel nisi euismod viverra. Curabitur sed nisl vitae lectus congue volutpat sit amet eu turpis. Nunc hendrerit massa id sapien pulvinar facilisis. Nullam lobortis, elit id placerat gravida, est massa ultricies quam, at.</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> Last updated 7 mins ago</small>
+						</div>
+					</div>
+					<!-- END SOURCE -->
+					<div class="row top-buffer2"></div>
+
+				</div>
+				
+				<div class="col-4">
+					
+					<div class="form-group">
+						<label for="comment">Feedback:</label>
+						<textarea class="form-control" rows="10" id="comment"></textarea>
+					</div>
+					
+					<div class="row top-buffer2"></div>
+					
+					<div class="btn-group d-flex" role="group">
+						<a href="" class="btn btn-secondary w-100">Post</a>
+						<a href="" class="btn btn-secondary w-100">Clear</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+ 
+ 
+	</div>
+	
+</div>
+  
+  
+  
+<div class="tab-pane container fade" id="peer1">Peer 2 assignment</div>
+<div class="tab-pane container fade" id="peer1">Peer 3 assignment</div>
+<div class="tab-pane container fade" id="peer1">Peer 4 assignment</div>
+<div class="tab-pane container fade" id="peer1">Peer 5 assignment</div>
+<div class="tab-pane container fade" id="peer1">Peer 6 assignment</div>
+
+
+<!-- END SOURCE -->
+
+<!-- Modal -->
+<!-- Modal code from https://getbootstrap.com/docs/4.1/components/modal/ Modified to suit my design -->
+
+<div class="modal fade" id="response">
+<div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle">Log out</h5>
+      <button class="close" data-dismiss="modal">&times;</button>
+    </div>
+    <div class="modal-body">
+      
+          You have successfully logged out of Love2Learn.
+
+        
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- END SOURCE -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
